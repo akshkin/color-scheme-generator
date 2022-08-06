@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <input id="seed-color" type="color">
+            <select id="color-mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="get-scheme-btn">Get color scheme</button>
+        </header>
+        <main>
+            <div class="color-container">
+                <div class="colors">
+                    <div class="color" id="color-1"></div>
+                    <div class="color" id="color-2"></div>
+                    <div class="color" id="color-3"></div>
+                    <div class="color" id="color-4"></div>
+                    <div class="color" id="color-5"></div>
+                </div>
+                <div class="color-names">
+                    <div class="color-name" id="color-name-1"></div>
+                    <div class="color-name" id="color-name-2"></div>
+                    <div class="color-name" id="color-name-3"></div>
+                    <div class="color-name" id="color-name-4"></div>
+                    <div class="color-name" id="color-name-5"></div>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

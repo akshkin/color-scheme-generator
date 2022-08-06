@@ -1,2 +1,2 @@
 # akshkin.github.io
- Color scheme generater
+ Color scheme generator

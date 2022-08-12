@@ -7,6 +7,9 @@ html, body {
     color: #374151;
     text-align: center;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
     padding: 2em 1em 1em;
@@ -14,6 +17,9 @@ header{
     gap: 1em;    
     align-items: center;
     justify-content: center;
+}
+#seed-color{
+    height: 40px;
 }
 select,
 button{

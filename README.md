@@ -21,9 +21,9 @@ This is a solution to Scrimba's solo project - color scheme generator using The 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
--Choose "seed color"
--Choose color scheme mode
--Click button to make request to The Color API to get a color scheme
+- Choose "seed color"
+- Choose color scheme mode
+- Click button to make request to The Color API to get a color scheme
 - See the scheme colors and hex values on the page
 
 

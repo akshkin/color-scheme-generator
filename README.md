@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/akshkin/akshkin.github.io-color-scheme-generater)
-- Live Site URL: [here](https://akshkin.github.io/akshkin.github.io-color-scheme-generater/)
+- Live Site URL: [here](https://akshkin.github.io/color-scheme-generator/)
 
 ## My process
 

@@ -1,3 +1,4 @@
+const colors = document.querySelectorAll(".color-name")
 
 document.getElementById("get-scheme-btn").addEventListener("click", function(){
 
@@ -18,8 +19,10 @@ document.getElementById("get-scheme-btn").addEventListener("click", function(){
         })
 })
 
- colorOne.addEventListener("click", function(){
-     colorOne.select()
-     document.execCommand("copy")
- })
+const copyToClipboard = (event) => {
+  const hexCode = event.target.textContent
+  navigator.clipboard.writeText(hexCode)
+}
+
+colors && colors.forEach(color => addEventListener("click", copyToClipboard))
 

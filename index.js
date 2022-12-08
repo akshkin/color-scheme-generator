@@ -21,8 +21,17 @@ document.getElementById("get-scheme-btn").addEventListener("click", function(){
 
 const copyToClipboard = (event) => {
   const hexCode = event.target.textContent
+  console.log(event.target)
   navigator.clipboard.writeText(hexCode)
+  const copied = document.getElementById("copied")
+  
+    copied.style.display = "block"
+    setTimeout(() => {
+      copied.style.display = "none"
+    }, 2000)
+  
+
 }
 
-colors && colors.forEach(color => addEventListener("click", copyToClipboard))
+colors && colors.forEach(color => color.addEventListener("click", copyToClipboard))
 

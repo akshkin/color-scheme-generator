@@ -25,6 +25,7 @@ Users should be able to:
 - Choose color scheme mode
 - Click button to make request to The Color API to get a color scheme
 - See the scheme colors and hex values on the page
+- Copy color code to clipboard
 
 
 ### Links
@@ -42,10 +43,5 @@ Users should be able to:
 - The Color API
 
 
-
-
-### Continued development
-
-To add "copy to clipboard" function 
 
 
